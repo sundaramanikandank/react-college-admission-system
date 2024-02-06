@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="App.test"
+    errors="1" failures="0" hostname="" id="" package="App.test" skipped="9"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 121.0.6167.139 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/Users/sundaramanikandan.kandasamy/projects/temp/react-college-admission-system/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /Users/sundaramanikandan.kandasamy/projects/temp/react-college-admission-system/logs/App.test_chromedriver.log
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 121.0.6167.139 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome"><![CDATA[
+      SessionNotCreatedError: An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 121.0.6167.139 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+    at Object.throwDecodedError (/Users/sundaramanikandan.kandasamy/projects/temp/react-college-admission-system/node_modules/selenium-webdriver/lib/error.js:524:15)
+    at parseHttpResponse (/Users/sundaramanikandan.kandasamy/projects/temp/react-college-admission-system/node_modules/selenium-webdriver/lib/http.js:587:13)
+    at Executor.execute (/Users/sundaramanikandan.kandasamy/projects/temp/react-college-admission-system/node_modules/selenium-webdriver/lib/http.js:515:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Testing Signin Page for Applicant" classname="App.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing Login Page for Applicant" classname="App.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing Navbar in applicant page" classname="App.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing Apply page of applicants" classname="App.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing Status page of applicants" classname="App.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing Login Page for Admin" classname="App.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing Navbar in admin page" classname="App.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing Applications page of admin" classname="App.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Testing AddSeats page of admin" classname="App.test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
